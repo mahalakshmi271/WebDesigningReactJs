@@ -32,7 +32,6 @@
 
 2.Surya
 
-3.Gana Sai
 
 4.Rasool
 
