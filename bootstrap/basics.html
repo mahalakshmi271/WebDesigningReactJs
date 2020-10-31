@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Introduction</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css"> -->
+	<style type="text/css">
+		.row>div{
+			border: 2px solid blue;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+<!-- <div class="text-left">
+<h6 class="h1">Good Morning</h6>
+<h5 class="h2">GollaPalli</h5>
+<h4 class="h3">Ganesh</h4>
+<h3 class="h4">Sri Lakshmi</h3>
+<h2 class="h5">Gayatri</h2>
+<h1 class="h6">Sai Ram</h1>
+<p class="h1">layouts for different devices(i.e..,Mobile,Tablet and laptop</p>
+</div>
+<div class="text-center">
+<h6 class="h1">Good Morning</h6>
+<h5 class="h2">GollaPalli</h5>
+<h4 class="h3">Ganesh</h4>
+<h3 class="h4">Sri Lakshmi</h3>
+<h2 class="h5">Gayatri</h2>
+<h1 class="h6">Sai Ram</h1>
+<p class="h1">layouts for different devices(i.e..,Mobile,Tablet and laptop</p>
+</div>
+<div class="text-right">
+<h6 class="h1">Good Morning</h6>
+<h5 class="h2">GollaPalli</h5>
+<h4 class="h3">Ganesh</h4>
+<h3 class="h4">Sri Lakshmi</h3>
+<h2 class="h5">Gayatri</h2>
+<h1 class="h6">Sai Ram</h1>
+<p class="h1">layouts for different devices(i.e..,Mobile,Tablet and laptop</p>
+</div>
+<div class="text-center">
+	<h1 class="text-capitalize">good morning</h1>
+	<h2 class="text-lowercase">GOOD MORNING</h2>
+	<h2 class="text-uppercase">good morning</h2>
+</div>
+
+<div class="text-center">
+	<h1 class="text-danger">Hemnath Reddy</h1>
+	<h2 class="text-success">Achyuth</h2>
+	<h3 class="text-primary">Rasool</h3>
+	<h2 class="text-info">GOOD MORNING</h2>
+	<h2 class="text-warning">GOOD MORNING</h2>
+	<h2 class="text-dark bg-light">GOOD MORNING</h2>
+	<h2 class="text-white bg-dark">GOOD MORNING</h2>
+	<h2 class="text-light bg-light">GOOD MORNING</h2>
+	
+</div>
+
+<div>
+	<h1>Table</h1>
+	<table class="table bg-white text-success table-responsive">
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Role</th>
+		</tr>
+		<tr>
+		<td>Sai Ram</td>
+		<td>Sai Ram@gmail.com</td>
+		<td>Sr.Developer</td>
+	</tr>
+		</tr>
+		<tr>
+		<td>Kalyan</td>
+		<td>Kalyan@gmail.com</td>
+		<td>Sr.Developer</td>
+	</tr>
+		</tr>
+		<tr>
+		<td>Gayatri</td>
+		<td>gayatri@gmail.com</td>
+		<td>Jr.Developer</td>
+	</tr>
+
+	</table>
+</div>
+
+	<h1>visible and invissible</h1>
+	<div class="visible">
+		<h1>Hell World</h1>
+
+		<h1>Good Morning</h1>
+	</div>
+	<div class="invisible">
+		<h1>Hell World</h1>
+
+		<h1>Good Morning</h1>
+	</div>
+</div>
+ -->
+<!-- <div>
+	<h1>Alert</h1>
+	<div  class="alert alert-success alert-dismissible">
+		<h1 class="close" data-dismiss="alert">&times;</h1>
+		<h2>Click Me</h2>
+	</div>
+</div>
+<h2>&#10004;</h2>
+
+<div>
+	<h1>Buttons</h1>
+
+	<button class="btn">Clcik ME</button>
+	<button class="btn-warning btn-xs">Clcik ME</button>
+	<button class="btn-success btn-sm">Clcik ME</button>
+	<button class="btn-danger btn-md">Clcik ME</button>
+	<button class="btn-primary btn-lg">Clcik ME</button>
+	<button class="btn-info btn-xg">Clcik ME</button>
+	<a  class="btn-success btn" href="www.google.com">Clcik</a>
+	<input  class="btn btn-success"type="submit" name="" value="click">
+</div>
+<div>
+	<h1>Display</h1>
+	<h1 class="display-1">Hell World 90px =16*6 remx</h1>
+	<h1 class="display-2"> Good Morning 16*5.5 rem  </h1>
+	<h1 class="display-3"> HTML is not Programimg 16*4.5</h1>
+	<h1 class="display-4"> CSS is not Programimg 16*3.5</h1>
+	<h1 class="display-5"> Happy Learning 16*2.5</h1>
+</div>
+
+<div>
+	<p class="lead">Sai Ram D</p>
+	<p class="lead"> Kalayan </p>
+	<p> Gayatri</p>
+	<p>Swami</p>
+
+</div> -->
+<!-- <div>
+	<h1>Container</h1>
+	<div class="container" style="border: 2px solid blue">
+		<h1>Hell World</h1>
+		<h1>Good Morning</h1>
+	</div>
+</div>
+<div>
+	<h1>Container-full width container-fluid</h1>
+	<div class="container-fluid" style="border: 2px solid maroon">
+		<h1>Hell World</h1>
+		<h1>Good Morning</h1>
+	</div>
+</div>
+		<div class="container container-sm" style="border: 2px solid red">
+		<h1>Hell World</h1>
+		<h1>Good Morning</h1>
+	</div>
+
+	<div class="container container-md" style="border: 2px solid teal">
+		<h1>Hell World</h1>
+		<h1>Good Morning</h1>
+	</div>
+</div>
+	<div class="container container-lg" style="border: 2px solid blue; background-color:green">
+		<h1>Hell World</h1>
+		<h1>Good Morning</h1>
+	</div>
+</div>
+
+
+
+
+ -->
+ 	<!-- <div class="text-center">
+ 		<h1>Jumbotron</h1>
+
+<div class="jumbotron  text-center">
+	<h1 class="display-2">Good Morning</h1>
+	<p class="lead">In computer science, a data structure is a data organization, management, them, and the functions or operations that can be applied to the data.</p>
+	<button class="btn btn-primary"> Clcik Me</button>
+</div>
+
+ 	</div>
+ 	<div class="jumbotron jumbotron-fluid">
+	<h1 class="display-2">Good Morning</h1>
+	<p class="lead">In computer science, a data structure is a data organization, management, them, and the functions or operations that can be applied to the data.</p>
+	<button class="btn btn-primary"> Clcik Me</button>
+</div> -->
+<!-- <div>
+	<h1>Container</h1>
+	<div class="container-fluid" style="border: 2px solid blue">
+		<h1>Hell World</h1>
+		<h2>Good Morning</h2>
+	</div>
+</div> -->
+<div>
+	<h1>Grid</h1>
+	<div class="row">
+		<div class="col-xs-1">1</div>
+		<div class="col-xs-1">2</div>
+		<div class="col-xs-1">3</div>
+		<div class="col-xs-1">4</div>
+		<div class="col-xs-1">5</div>
+		<div class="col-xs-1">6</div>
+		<div class="col-xs-1">7</div>
+		<div class="col-xs-1">8</div>
+		<div class="col-xs-1">9</div>
+		<div class="col-xs-1">10</div>
+		<div class="col-xs-1">11</div>
+		<div class="col-xs-1">12</div>
+
+	</div>
+		<div class="row">
+		<div class="col-sm-1">1</div>
+		<div class="col-sm-1">2</div>
+		<div class="col-sm-1">3</div>
+		<div class="col-sm-1">4</div>
+		<div class="col-sm-1">5</div>
+		<div class="col-sm-1">6</div>
+		<div class="col-sm-1">7</div>
+		<div class="col-sm-1">8</div>
+		<div class="col-sm-1">9</div>
+		<div class="col-sm-1">10</div>
+		<div class="col-sm-1">11</div>
+		<div class="col-sm-1">12</div>
+		<div class="col-sm-1">13</div>
+
+	</div>
+</div>
+<div>
+	<h1>Grid</h1>
+	<div class="row">
+		<div class="col-md-1">1</div>
+		<div class="col-md-1">2</div>
+		<div class="col-md-1">3</div>
+		<div class="col-md-1">4</div>
+		<div class="col-md-1">5</div>
+		<div class="col-md-1-1">6</div>
+		<div class="col-md-1">7</div>
+		<div class="col-md-1">8</div>
+		<div class="col-md-1">9</div>
+		<div class="col-md-1">10</div>
+		<div class="col-md-1">11</div>
+		<div class="col-md-1">12</div>
+		<div class="col-md-1">13</div>
+
+	</div>
+		<div class="row">
+		<div class="col-sm-1">1</div>
+		<div class="col-sm-1">2</div>
+		<div class="col-sm-1">3</div>
+		<div class="col-sm-1">4</div>
+		<div class="col-sm-1">5</div>
+		<div class="col-sm-1">6</div>
+		<div class="col-sm-1">7</div>
+		<div class="col-sm-1">8</div>
+		<div class="col-sm-1">9</div>
+		<div class="col-sm-1">10</div>
+		<div class="col-sm-1">11</div>
+		<div class="col-sm-1">12</div>
+		<div class="col-sm-1">13</div>
+
+	</div>
+</div>
+<h1>Equeal Parts</h1>
+<div class="row">
+		<div class="col-sm-4">1</div>
+		<div class="col-sm-4">2</div>
+		<div class="col-sm-4">3</div>
+
+	</div>
+	<div class="row">
+		<div class="col-md-4">1</div>
+		<div class="col-md-4">2</div>
+		<div class="col-md-4">3</div>
+
+	</div>
+	<div>
+		<h1>Un-Equal Parts</h1>
+		<div class="row">
+			<div class="col-9">9 parts of Div</div>
+			<div class="col-3">3 parts of Div</div>
+		</div>
+		<div class="row">
+			<div class="col-11">9 parts of Div</div>
+			<div class="col-1">3 parts of Div</div>
+		</div>
+	</div>
+	<h1>Ordering Numbering</h1>
+	<div class="row">
+			<div class="col-md-3 order-last"> 1stparts of Div</div>
+			<div class="col-md-3 order-3">2nd parts of Div</div>
+			<div class="col-md-3 order-second">3rd parts of Div</div>
+			<div class="col-md-3 order-first">4th parts of Div</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 order-last">1 change order to last</div>
+		<div class="col-md-4 order-first"> 2 change order to first</div>
+		<div class="col-md-4 order-second" >3 change order to second</div>
+
+
+	</div>
+ </body>
+</html>
